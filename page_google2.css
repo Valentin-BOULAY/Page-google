@@ -1,0 +1,169 @@
+body
+{
+  color: black;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+}
+
+
+.highbar
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: auto;
+  height: 48px;
+  margin: 5.5px;
+}
+
+.link
+{
+
+  display:  flex;
+  align-items: center;
+  height: 24px;
+  margin-left: 15px;
+ 
+}
+
+.link a
+{
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto,RobotoDraft,Arial,sans-serif;
+  color: darkslategrey;
+  text-decoration: none;
+}
+.link:hover
+{
+  text-decoration: underline;
+}
+
+.app
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+}
+
+.app:hover
+{
+  cursor: pointer;
+}
+
+.login button
+{
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #fff;
+  border-color: #1a73e8;
+  border-radius: 4px;
+  background-color: #1a73e8;
+  padding: 9px 23px;
+  cursor: pointer;
+}
+
+.login button:hover
+{
+  cursor: pointer;
+  border-color: #0094e7;
+  background-color: #0094e7;
+}
+
+.google
+{
+  display: flex;
+  align-items: center;
+  flex-direction:  column-reverse;
+  height: 290px ;
+}
+
+.research
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+#research
+{
+  width: 500px;
+  height: 34px;
+  border-radius: 4px;
+
+}
+.button
+{
+  display: flex;
+  height: 58px ;
+  justify-content: center;
+  align-items: center;
+  
+}
+.button button
+{
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  border-radius:  4px;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+}
+
+.button button:hover
+{
+  cursor: pointer;
+  border-color: grey;
+}
+
+.vide
+{
+  height: 300px;
+}
+
+.bas-fr
+{
+  padding: 14px 30px;
+  background-color: #e3e3e3 ;
+  color: #70757a;
+  font-family: arial,sans-serif;
+  font-size: 15px;
+  height: 18px;
+}
+
+.bas
+{
+  display: flex;
+  background-color: #e3e3e3 ;
+  color: #70757a;
+  height: 142px;
+  border-top: solid 1px;
+  border-color: lightgrey;
+  justify-content: space-between;
+}
+
+.bas a
+{
+  color: #70757a;
+  display:  flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.bas a:hover, .bas div:hover
+{
+  text-decoration: underline;
+}
+
+.z2 img
+{
+  padding-right: 5px;
+}
+
+
